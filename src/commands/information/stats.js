@@ -25,9 +25,5 @@ export async function execute(interaction, client) {
     await interaction.editReply(options).catch(async () => {
         await interaction.editReply(options)
     })
-
-    // await interaction.editReply({
-    //    content: `Онлайн: ${onlineUsers}\nОтошли: ${idleUsers}\nНе беспокоить: ${dndUsers}\nОффлайн: ${offlineUsers}`,
-    //    ephemeral: true
-    //})
+    
 }
